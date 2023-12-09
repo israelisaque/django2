@@ -1,0 +1,3 @@
+Se estiver no Linux Ubuntu
+
+sudo apt-get install libmysqlclient-dev python3-dev
