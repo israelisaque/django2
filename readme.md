@@ -1,4 +1,4 @@
-# django1 - projeto web simples
+# django2 - projeto web simples
 
 Desenvolvimento de um CRUD de produtos utilizando Python e Django, como descrito 
 no curso https://www.udemy.com/course/programacao-web-com-django-framework-do-basico-ao-avancado/.
