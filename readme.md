@@ -38,11 +38,13 @@ python manage.py createsuperuser
 ```
 
 - Após a criação do superuser, basta rodar a app e digitar no final do 
-- localhost:8000/admin para realizar o login. 
+localhost:8000/admin para realizar o login. 
 - Para cadastrar um produto, basta digitar localhost:8000/produto. 
 - É necessário estar logado via admin, caso não esteja, será redirecionado para a home.
 - A url localhost:8000/contato exibe um formulário para envio de email. As configurações de envio de 
-- email estão comentadas, pois não foi configurado um servidor de envio de email válido.  
+email estão comentadas, pois não foi configurado um servidor de envio de email válido. 
+- O banco de dados configurado é o SQLite3, porém o MySQL também está configura, para usá-lo, basta 
+descomentar as configurações em settings.py 
 
 #### Dependências:
 - python: 3.11.6
